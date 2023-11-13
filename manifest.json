@@ -4,13 +4,13 @@
   "description": "Test Extension",
   "version": "1.0",
   "icons": {
-    "16": "images/16.png",
-    "32": "images/32.png",
-    "48": "images/48.png",
-    "128": "images/128.png"
+    "16": "images/cat 1.jpg",
+    "32": "images/cat 1.jpg",
+    "48": "images/cat 1.jpg",
+    "128": "images/cat 1.jpg"
   },
   "action": {
-    "default_icon": "images/32.png",
+    "default_icon": "images/cat 1.jpg",
     "default_title": "Catify",
     "default_popup": "popup/popup.html"
   },
