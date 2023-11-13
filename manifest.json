@@ -13,5 +13,12 @@
     "default_icon": "images/32.png",
     "default_title": "Catify",
     "default_popup": "popup/popup.html"
-  }
+  },
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script/inject.js"]
+    }
+  ]
 }
